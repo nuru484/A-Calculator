@@ -41,6 +41,18 @@
     border-style: none;
     box-shadow: 0.5px 1px 2px #000000;
   }
+
+  button:hover {
+    background-color: #caa67a;
+    transform: scale(0.9, 0.9);
+    transition: transform 0.9s;
+}
+  button:active {
+    background-color: #b6884f;
+    transform: scale(1, 1);
+    transition: transform 0.5s;
+  }
+
   button:last-child{
     width: 40%;
   }
